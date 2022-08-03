@@ -53,7 +53,9 @@ class _MyHomePageState extends State<MyHomePage> {
     final ChromeSafariBrowser browser = MyChromeSafariBrowser();
 
     // String url = 'https://secure.paytabs.sa/payment/page/5816FE4182E476EABBA9E9257F204F5CBF9197EB1833758E5F5B1E08';// Navigator.of(context).pushNamed('/webview', arguments: url);
-    String url = 'https://secure.paytabs.sa/payment/page/5816FBD382E475B1FF4913D433F36CC34CD1863AD2FA4558873F2582';// Navigator.of(context).pushNamed('/webview', arguments: url);
+    // String url = 'https://secure.paytabs.sa/payment/page/5816FBD382E475B1FF4913D433F36CC34CD1863AD2FA4558873F2582';// Navigator.of(context).pushNamed('/webview', arguments: url);
+    String url = 'https://app.adjust.com/urqqh8n';// Navigator.of(context).pushNamed('/webview', arguments: url);
+    print(url);
     browser.open(
       url: Uri.parse(url),
       options: ChromeSafariBrowserClassOptions(
