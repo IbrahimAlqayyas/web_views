@@ -48,9 +48,7 @@ class _InAppPaymentWebViewState extends State<InAppPaymentWebView> {
       body: InAppWebView(
         key: webViewKey,
         initialUrlRequest:
-        URLRequest(url: Uri.parse(
-            "https://secure.paytabs.sa/payment/page/5816F10E82E477B32EC3D360AE49EFEA0FF2A2529C48F347138D37CA"
-        )),
+        URLRequest(url: Uri.parse('https://onelink.to/9htdxh')),
         onUpdateVisitedHistory: (controller, url, androidIsReload) {
           setState(() {
             this.url = url.toString();
